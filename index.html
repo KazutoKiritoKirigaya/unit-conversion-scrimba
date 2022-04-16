@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Unit Conversion</title>
+        <link rel="stylesheet" href="css/styles.css" />
+    </head>
+    <body>
+        <header>
+            <h1 id="metImpUnCon" onclick="render()">
+                Metric/Imperial Unit Conversion
+            </h1>
+            <h1 id="inputNum" contenteditable="true">0</h1>
+        </header>
+        <main>
+            <p class="data" id="length">Length (Meter/Feet)</p>
+            <p class="dataRes" id="lengthOut">
+                X Meters = Y Feet | X Feet = Y Meters
+            </p>
+            <p class="data" id="volume">Volume (Liters/Gallons)</p>
+            <p class="dataRes" id="volumeOut">
+                X Liters = Y Gallons | X Gallons = Y Liters
+            </p>
+            <p class="data" id="mass">Mass (Kilograms/Pounds)</p>
+            <p class="dataRes" id="massOut">
+                X Kilograms = Y Pounds | X Pounds = Y Kilograms
+            </p>
+        </main>
+        <script src="./js/app.js"></script>
+    </body>
+</html>
