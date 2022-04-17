@@ -1,30 +1,30 @@
 function meterToFeet(intToConvert) {
     let result = intToConvert * 3.28084;
-    return result;
+    return result.toFixed(3);
 }
 function feetToMeter(intToConvert) {
     let result = intToConvert / 3.28084;
-    return result;
+    return result.toFixed(3);
 }
 
 function litersToGallons(intToConvert) {
     let result = intToConvert / 4.546;
-    return result;
+    return result.toFixed(3);
 }
 
 function gallonsToLiters(intToConvert) {
     let result = intToConvert * 4.546;
-    return result;
+    return result.toFixed(3);
 }
 
 function kilogramsToPounds(intToConvert) {
     let result = intToConvert * 2.20462;
-    return result;
+    return result.toFixed(3);
 }
 
 function poundsToKilograms(intToConvert) {
     let result = intToConvert / 2.20462;
-    return result;
+    return result.toFixed(3);
 }
 
 function render() {
